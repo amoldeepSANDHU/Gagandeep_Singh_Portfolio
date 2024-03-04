@@ -60,6 +60,11 @@ import webphoto from "./webphoto.png";
   import iiitm from "./iiitm.png";
   import freelancers from "./freelancers.jpg";
 import combined from "./combined.png";
+
+import ecommerceVideo from "./ecommerce-video.mp4";
+import summarizationvideo from "./summarization-video.mp4";
+import attendancevideo from "./attendance-video.mp4";
+import absenteeismvideo from "./absenteeism-video.mp4"
 export {
   webphoto,
   flutterphoto,
@@ -76,6 +81,9 @@ export {
   eCommerce,
   flutterapp,
   ssr,
+  ecommerceVideo,
+summarizationvideo,
+attendancevideo,
   absenteeism,
   git,
   html,
@@ -84,6 +92,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  absenteeismvideo,
    c,
   cPlus,
   python,

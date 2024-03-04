@@ -13,6 +13,7 @@ import {
   reactjs,
   redux,
   tailwind,
+  absenteeismvideo,
   nodejs,
   mongodb,
   git,
@@ -25,6 +26,9 @@ import {
   webdevicon,
   reacticon,
   combined,
+ecommerceVideo,
+summarizationvideo,
+attendancevideo,
 
     c,
   cPlus,
@@ -213,7 +217,7 @@ const experiences = [
     ],
   },
   {
-    title: "Research workr",
+    title: "Research work",
     company_name: "ABV-IIITM GWALIOR",
     icon: iiitm,
     iconBg: "#E6DEDD",
@@ -287,7 +291,8 @@ const projects = [
       },
     ],
     image: eCommerce,
-    source_code_link: "https://github.com/",
+    video:ecommerceVideo,
+    source_code_link: "https://github.com/amoldeepSANDHU/E-commerce-Website.git",
   },
   {
     name: "Self Attendance-APP",
@@ -308,29 +313,10 @@ const projects = [
       },
     ],
     image: flutterapp,
-    source_code_link: "https://github.com/",
+    video:attendancevideo,
+    source_code_link: "https://github.com/amoldeepSANDHU/Attendance_counter_and_Reminder.git",
   },
-  {
-    name: "Absenteeism in Hours",
-    description:
-      "A comprehensive analysis of the data of employees to study the absenteeism in hours on a day and also prparation of the model to predict the absenteeism.",
-    tags: [
-      {
-        name: "Data Analytics",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Logistic Regression",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tableu",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: absenteeism,
-    source_code_link: "https://github.com/",
-  },
+
   {
     name: "Salvus Summary Retrieval",
     description:
@@ -354,9 +340,30 @@ const projects = [
       },
     ],
     image: ssr,
-    source_code_link: "https://github.com/",
+    video:summarizationvideo,
+    source_code_link: "https://github.com/amoldeepSANDHU/Fuzzy-based_Text-Summarization.git",
   },
-
+  {
+    name: "Absenteeism in Hours",
+    description:
+      "A comprehensive analysis of the data of employees to study the absenteeism in hours on a day and also prparation of the model to predict the absenteeism.",
+    tags: [
+      {
+        name: "Data Analytics",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Logistic Regression",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tableu",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: absenteeismvideo,
+    source_code_link: "https://github.com/amoldeepSANDHU/Absenteeism-in-hours.git",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

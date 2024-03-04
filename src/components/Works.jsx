@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  video,
   source_code_link,
 }) => {
   return (
@@ -24,13 +25,14 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[550px] w-[550px] '
       >
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
+        <div className='relative w-full '>
+          <video controls autoPlay muted onLostPointerCapture loop
+            src={video}
             alt='project_image'
-            className='w-full h-full object-cover  rounded-2xl'
+            className='w-full h-full  rounded-2xl'
+            
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
